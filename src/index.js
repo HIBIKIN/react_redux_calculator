@@ -9,7 +9,7 @@ const store = createStore(reducer);
 
 render(
   <Provider store={store}>
-    <CalculatorContainer />,
+    <CalculatorContainer />
   </Provider>,
   document.getElementById('root')
 );
